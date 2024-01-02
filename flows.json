@@ -1,0 +1,1453 @@
+[
+    {
+        "id": "0d91bc22adfdd145",
+        "type": "tab",
+        "label": "PULSE RC4 REPEATER",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f9a2e3a88dbc14f0",
+        "type": "tab",
+        "label": "Sigfox Mailer Activatión",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4945ecb5318bc15",
+        "type": "tab",
+        "label": "SIMCARD M2M Activation",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "12cf43e506eee17e",
+        "type": "tab",
+        "label": "FORM CONTACT TECA",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9bec2cfa627d0fd5",
+        "type": "group",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "SENDER MAIL",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "42fde18b.e08e8",
+            "244793a3.03634c",
+            "31812733.9f9368",
+            "b79b091.0760df8",
+            "5a78059d.f7185c",
+            "492ab0f2.cea5c",
+            "644a4bba16385aaa"
+        ],
+        "x": 54,
+        "y": 819,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "943570ad1cb599ec",
+        "type": "group",
+        "z": "e4945ecb5318bc15",
+        "name": "SENDER MAIL",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "85cfa526e3037579",
+            "19fbe8d681d4cb6c",
+            "d5f52706a3f2407c",
+            "4d643bf70fdc348f",
+            "6b0e0d605fbfff3d",
+            "791c7a3dfeb27a2b",
+            "4da5bc5a9773e128"
+        ],
+        "x": 154,
+        "y": 399,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "475c6d22f761ac90",
+        "type": "group",
+        "z": "12cf43e506eee17e",
+        "name": "SENDER MAIL",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d002da57cec35665",
+            "77146850898a28a4",
+            "5636bbec4b898ce6",
+            "37b197585b205673",
+            "a5c69581ad2eb5b2",
+            "75f5bc1de7a03ecf",
+            "cb49471c265e6cc0"
+        ],
+        "x": 134,
+        "y": 419
+    },
+    {
+        "id": "a434b0c46bd654c9",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "163ea26928a12560",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e922efbceb55af4d",
+        "type": "http in",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "url": "/pulserc4_repeater",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "4a03aa9d90e51a90",
+                "ddf6e11d5c048064",
+                "db39c3c3bc7e1c2f"
+            ]
+        ]
+    },
+    {
+        "id": "4a03aa9d90e51a90",
+        "type": "http response",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 450,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ddf6e11d5c048064",
+        "type": "debug",
+        "z": "0d91bc22adfdd145",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "0e6161bfbea35790",
+        "type": "http request",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api-pulse.teca.pe/api/deviceData/deviceData",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Content-Type",
+                "valueType": "other",
+                "valueValue": "application/json"
+            }
+        ],
+        "x": 630,
+        "y": 420,
+        "wires": [
+            [
+                "595b1a21e0e0f70b"
+            ]
+        ]
+    },
+    {
+        "id": "a94e1f61d34ff1f7",
+        "type": "inject",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"device\":\"830B52\",\"pulsosA\":0,\"pulsos\":154,\"reboot\":false,\"reflash\":false,\"fraude\":false,\"b4\":false,\"b3\":false,\"dnlk\":true,\"update\":false,\"b0\":false,\"config\":11,\"bateria\":3600,\"timestamp\":1683780104,\"seqNumber\":156}",
+        "payloadType": "json",
+        "x": 430,
+        "y": 420,
+        "wires": [
+            [
+                "0e6161bfbea35790"
+            ]
+        ]
+    },
+    {
+        "id": "595b1a21e0e0f70b",
+        "type": "debug",
+        "z": "0d91bc22adfdd145",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "db39c3c3bc7e1c2f",
+        "type": "function",
+        "z": "0d91bc22adfdd145",
+        "name": "function 1",
+        "func": "var ID_LOCAL_DEVICE = msg.payload.deviceLocaID;\nvar apiPulse=\n{\n    \"device\": ID_LOCAL_DEVICE.toString(16).toUpperCase(),\n    \"pulsosA\": msg.payload.pulsosA,\n    \"pulsos\": msg.payload.pulsos,\n    \"reboot\": msg.payload.reboot,\n    \"reflash\": msg.payload.reflash,\n    \"fraude\": msg.payload.fraude,\n    \"b4\": msg.payload.b4,\n    \"b3\": msg.payload.b3,\n    \"dnlk\": msg.payload.dnlk,\n    \"update\": msg.payload.update,\n    \"b0\": msg.payload.b0,\n    \"config\": msg.payload.config,\n    \"bateria\": msg.payload.bateria,\n    \"timestamp\": msg.payload.timestamp,\n    \"seqNumber\": msg.payload.seqNumber\n}\nmsg.payload = apiPulse;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "f67799eda0564e51",
+                "0e6161bfbea35790"
+            ]
+        ]
+    },
+    {
+        "id": "c29f07cafc630ef8",
+        "type": "comment",
+        "z": "0d91bc22adfdd145",
+        "name": "GATEWAY REPEATER PULSE RC4",
+        "info": "",
+        "x": 260,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "47ce21b3298765a7",
+        "type": "inject",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 240,
+        "wires": [
+            [
+                "db39c3c3bc7e1c2f"
+            ]
+        ]
+    },
+    {
+        "id": "f67799eda0564e51",
+        "type": "debug",
+        "z": "0d91bc22adfdd145",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "da83d6cca6274031",
+        "type": "http in",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "url": "/test",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 580,
+        "wires": [
+            [
+                "891fa6b7981f1af8",
+                "70c5969b960da5ac"
+            ]
+        ]
+    },
+    {
+        "id": "891fa6b7981f1af8",
+        "type": "http response",
+        "z": "0d91bc22adfdd145",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 430,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "70c5969b960da5ac",
+        "type": "debug",
+        "z": "0d91bc22adfdd145",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "bb6c415788daf5fc",
+        "type": "http in",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "activate",
+        "url": "activate",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "a872249dade26cc5"
+            ]
+        ]
+    },
+    {
+        "id": "284b90ca2f9e157a",
+        "type": "http response",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 510,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "a872249dade26cc5",
+        "type": "template",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "Form Activate",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "\n<html>\n  <head>\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <div class=\"container\">\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\">\n    <style>\n      body {\n        background-color: #f5f5f5;\n        font-family: Arial, sans-serif;\n      }\n      \n      h1 {\n        margin-top: 50px;\n        margin-bottom: 20px;\n        font-size: 36px;\n        font-weight: bold;\n        text-align: center;\n        text-transform: uppercase;\n      }\n      \n      p {\n        margin-bottom: 20px;\n        font-size: 18px;\n        line-height: 1.5;\n      }\n      \n      a {\n        color: #007bff;\n        text-decoration: none;\n      }\n      \n      a:hover {\n        color: #0056b3;\n        text-decoration: underline;\n      }\n      \n      form {\n        max-width: 600px;\n        margin: 0 auto;\n        background-color: #ffffff;\n        padding: 20px;\n        border-radius: 5px;\n        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);\n      }\n      \n      label {\n        font-size: 18px;\n        font-weight: bold;\n        color: #555555;\n        margin-bottom: 5px;\n      }\n      \n      input[type=\"text\"],\n      input[type=\"email\"],\n      textarea {\n        width: 100%;\n        padding: 10px;\n        font-size: 18px;\n        color: #555555;\n        border: 1px solid #cccccc;\n        border-radius: 4px;\n        box-sizing: border-box;\n        margin-bottom: 20px;\n      }\n      \n      textarea {\n        height: 120px;\n        resize: vertical;\n      }\n      \n      button[type=\"submit\"] {\n        background-color: #007bff;\n        color: #ffffff;\n        border: none;\n        border-radius: 4px;\n        padding: 10px 20px;\n        font-size: 18px;\n        cursor: pointer;\n      }\n      \n      button[type=\"submit\"]:hover {\n        background-color: #0056b3;\n      }\n    </style>\n\n    <div class=\"espacio-superior\"></div>\n\n      <h1 class=\"text-center\">ACTIVAR CONECTIVIDAD SIGFOX</h1>\n     <br/>\n      <form action=\"https://back.teca.pe/submit-form\" method=\"post\">\n     <p class=\"text-left\"><div class=\"espacio-superior\"></div> ¿Cómo extraer ID y PAC del devkit? <a href=\"https://github.com/TECA-IOT/Ufox/wiki/Gu%C3%ADa-de-inicio-r%C3%A1pido\">Click aquí</a></p>\n      <p class=\"text-left\">Más información <a href=\"https://support.sigfox.com/docs/device-idpac-couple\">Click aquí</a></p>\n  \n        <div class=\"form-group\">\n          <label for=\"idDevice\">ID Dispositivo(s)</label>\n          <textarea class=\"form-control\" id=\"idDevice\" name=\"idDevice\"></textarea>\n         <!-- <input type=\"text\" class=\"form-control\" id=\"idDevice\" name=\"idDevice\" required>-->\n        </div>\n        <div class=\"form-group\">\n          <label for=\"pacDevice\">PAC Dispositivo(s)</label>\n          <textarea class=\"form-control\" id=\"pacDevice\" name=\"pacDevice\"></textarea>\n          <!-- <input type=\"text\" class=\"form-control\" id=\"pacDevice\" name=\"pacDevice\" required> -->\n        </div>\n        <div class=\"form-group\">\n          <label for=\"name\">Nombres y Apellidos | Razón Social (Empresa)</label>\n          <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" required>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"mail\">Email</label>\n          <input type=\"email\" class=\"form-control\" id=\"mail\" name=\"mail\" required>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"phone\">Telf. de contacto</label>\n          <input type=\"text\" class=\"form-control\" id=\"phone\" name=\"phone\" required>\n        </div>\n         <div class=\"form-group\">\n          <label for=\"Dni/Ruc\">DNI | RUC | Tax id | NIF</label>\n          <input type=\"text\" class=\"form-control\" id=\"Dni/Ruc\" name=\"Dni/Ruc\" required>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"address\">Dirección, Ciudad, Pais</label>\n          <input type=\"text\" class=\"form-control\" id=\"address\" name=\"address\" required>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"additionalInstructions\">Instrucciones adicionales (Opcional)</label>\n          <textarea class=\"form-control\" id=\"additionalInstructions\" name=\"additionalInstructions\"></textarea>\n        </div>\n        <button type=\"submit\" class=\"btn btn-primary\">Enviar</button>\n      </form>\n    </div>\n  </body>\n</html>",
+        "output": "str",
+        "x": 320,
+        "y": 600,
+        "wires": [
+            [
+                "284b90ca2f9e157a"
+            ]
+        ]
+    },
+    {
+        "id": "node-red-flow-2",
+        "type": "http in",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "submit-form",
+        "url": "submit-form",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 720,
+        "wires": [
+            [
+                "node-red-flow-3",
+                "a8f07b88a8dd0cad",
+                "5a78059d.f7185c",
+                "31812733.9f9368"
+            ]
+        ]
+    },
+    {
+        "id": "node-red-flow-3",
+        "type": "function",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "Procesamiento de datos",
+        "func": "var nombre = msg.payload.nombre;\nvar apellido = msg.payload.apellido;\nvar correo = msg.payload.correo;\nvar telefono = msg.payload.telefono;\nvar direccion = msg.payload.direccion;\n\nvar resultado = \"Recibido nombre: \" + nombre + \", apellido: \" + apellido + \", correo: \" + correo + \", telefono: \" + telefono + \", direccion: \" + direccion;\n\nmsg.payload = resultado;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 720,
+        "wires": [
+            [
+                "938f8d1c065bd7ba"
+            ]
+        ]
+    },
+    {
+        "id": "node-red-flow-4",
+        "type": "http response",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "HTTP Response",
+        "statusCode": "200",
+        "headers": {},
+        "x": 740,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "07ecb9ece2cdb68a",
+        "type": "comment",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "get webpage activate",
+        "info": "",
+        "x": 140,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "62d84495cf161d09",
+        "type": "comment",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "post: recive form",
+        "info": "",
+        "x": 140,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "a8f07b88a8dd0cad",
+        "type": "debug",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 280,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "938f8d1c065bd7ba",
+        "type": "template",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "Thanks Resp.",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">\n    <style>\n      .loading {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-12 text-center\">\n          <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAAA6lBMVEX///8AAAADwvbn5+ejo6P///yCgoL//v////nKysrr6+uSkpLw8PD///v29vaJiYmsrKxoaGibm5sAw/UVFRUnJyfW1tZ3d3fb29tLS0thYWEAvO29vb0AwvAAvfb6//8dHR06OjpTU1O5ubnGxsbx/vtt0/EAxO////IAvvoZGRlSzetdXV3/+v/p+vwyMjJERETz/fW/7vKR3/BDyvCt5/Lh9fuC3OsvxOOX3vUAu+MBxuyL5vG47vh91fGa4e9l1+vT+Pk2zOen7fHK7vle2PMWyt5t2uul4vMAufrg//244vM+z/GwrqY5vIT6AAAIdUlEQVR4nO2aDVviOhbH00JMBQpIBXFKUl8olUHq8Cojg8io9zru7Pf/Opv0hQQoXvfZtXX3nt/z6EPDKe2/OefkJClCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfyNw+EdI1jeSAZjD/5mOgbO+lfThPU4I6ff7n6TnS2vKH30pjBx34Pq+OzA++lLv40SLqX3UJTDvbQNjdzjqjD2b2dQbd0ZD3zRMgrDzUVd9Bwdr7fmPuoRQ7k96lm1Rqod4nu31Jr5BMnX/k4/XbhjTW2pTS7esSLrOxOf5bORfZdnxKWhHE97dXKvlcc0h/Ih6jHf/dyfDnJ+C9uFdqFf8UUug66H38093QzLIyu9T0D5icyvocMvzoqcwn9PocXj0R2bDfRrau54VKuVePuZ4XhT7lsWY9asz+Kgr/wUpaF/YXS5St3u3Q99Bpomd6fB2rDNLeAJPgfOegzMpdE+0Y87XuqYVCwE7FqVco9VqNZq736gUmvutbplFvfsVNhFBrus62DAQeeoINwj8nvXcTNK9qOgKpVJF047POF/rm18X8tf1yC++nlaae36kUTk9i60uittW2BkuJ/4VcVbLh57w+c73oWuYxrRne2HY046bXbovrj1fU5tzR9omF4cJJ7dPt60aG987fYT7yF/ObMbzu8V9wJtZnZWDnInNgrhnbJRZjSOLO+1YaS5qu5xsn1v+kmB1oFrwehYPRiKzUSsubXRqd177aEW7nhj4dHtIshnp1d6V2kvb3RlyXto4N5dopH1TZ0aO4Y/n3biuicsbav8wiP/T6oqg92a+YaYkV2XDsdfaSzfJqrS6Kqu5x0gVT1zjvks9uqmd13W05wz8sT7nny12a6Tf8Vs+G2sn5/tUaRfy5MLZXis1ONyZqGE3tTN9bukPDl7NLcooZfOVkXbMl6637jlqP0gUFCIrgaRYj2nHRrmyO7aioo7ZQUUjCj1LBDof2h/1sNx/cNLWXlnf60EjIGw+VETUDy7bl0U1+uNB/FJpOy22DqvqEzuPL3HTMG9tXtQx2+uMFqunlz9nXe7oIuaZ94OQ56C2te78tH1+z/z9XGooRpHbkk3RMkdZsWqFTQUleUTjYZFn/deezez5yDeCVTvDHY5/icHNsrrzhemL9G9RfZmW5phk7e0kB5d57SZsaO3oRGrmrATHYiBooMFktPS5bn8xmQxdhI2RLfKd7ek/HeNeBIOl/5GGXpVk7TKOr5VWOd6HkbEtM6BwvPmEjtZeQfCKdz+9Y6wzxfjRZl6Xe7u9cHx7zqhu3T0RnOo4l6hd3r+mlmiFTacvy27PKVZydiSOIme5qCJijmZ6h8f75NmyJ46xtMOa7g+CHkTZ09V5cZdqvkvULjPdzYbxuvmLOGqsD0/VO5YJUCSKWvS5hdw/2fOrWKw10KrHlo7zLKoaHuhT85GJEV7vpdvtydqlcxc3jL9tiM2vrTZK2NxBJeRAaI+Gh2vsvLBbZPDKlfCwd3/aQ/zEB3hL9379IK7O0x215q6L08z1idpluBcPVc7j5roY5SpJp24Rl7xt5Nq/3bVH49e7Wd/sBUu23QdshoWPNzVR5tovtL9CBLhMda29Px/FxVmp/0L5dCXWTsjSfjJegtpWnzu4E0xy6FO6pV2S9vK+Un5Tu3xCSTPbkCj4eX54oA4hcTwT/Grfmysazmlc8z5YydQ/gfZSfVtqonZZ6TX2/nyU6k4Q9nqOQ2KPJsgddwyfhmt2U+O7Fcx0Fub/k/Yoax4gx+6Jki5qdsjgd89wRWdTi3t/rB1lnuveqV36/Dv63ZmNUR8p/T5/NsN+p3SF78MtmwXOXLtap7+h/T25Lor3a4w61CWK9qk9MuJ499F9uKCzIJlrV3r0spBLRMTle8a4eA5QII/dSbgYy8Oeax/R1dUiXMCZu+Y47PcpwpnXdbJH39qYlrVNZa9NXB1fYvdu9hrsunJ/N8mK/SbGP4Ju746RQwPt1CfZa6+tG2/2n6lUvhdqcyFfDcmLui5yoW+YPDI+ZRMGJu77d2xFBk9io27eXWKXBWPc2OhnP5eRlfoboazOZdT1y+q6tawc8bnMI5s9CQPsPHpsiEpl1OETWdsbYCfco7i/IqkuXyRqV4qbs62NlsO6nLPJ0lcNDdkqjtZzvwYyX6j9ezR5uR3b3gI7F0XkTMbj21cDGS93OmOz6UcKTUBqVxcXpdNrpxvied6+KSsHMfKByAWN680LNNHV63fKGKO9F9+4OgmetiGmN86ALHvjh1Xa63XK/oMisiRbtfrlurkRJMHzWHxZ1gFn8RCvPI/q1k/9k6Ard/q0mvJ03wwKo+tWs9kkDupj7Ljp1jUCGZ1avdI6bNXC3TSZw4XYSrvRaLTXy5Wn8cmq1dElt6mqs6Dy9hVOW1FTU1nT/MJ73nCQg1NN8eFtaFtES8vJmzIRF5GG8rc3jNb5Q1kFP7s4qBWPNqZKR2krluzM2aI5WXn/roMmw2Pvtgwf1eQlzt/6qQy172w4xvPRwv6i/lhmtsN9NnVl2HvTPbLUXtrq4PVcfGfHJuZcXZlsv8MGlbf3sj+J9u2uU9Yhaok3e7D58mkuKTMcbb+gmk8w+gTaUWPDu9vKN7ndXbmT3Xcvqtsp47S9Y4MK+zb4stWOynkZkOeb2grVI7lWr33JJ750U26fyMC5qTSSB6tCXg6A9co6Cr789/X8m5Ta+VotX20kvExdLrSrtVqt2sq98aZ1uRQaHZbeGqXLh9VasZi/LBDUrhRDqv/xvf8P80lepgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+pvwLmIC5Mn7tIQAAAAAASUVORK5CYII=\" alt=\"Teca Perú SAC\">\n          <h1>Gracias por su preferencia</h1>\n          <p>Estaremos procediendo a activar la conectividad de su dispositivo Sigfox</p>\n        </div>\n      </div>\n    </div>\n    <div class=\"loading\">\n      <svg width=\"200\" height=\"200\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid\">\n        <circle cx=\"50\" cy=\"50\" fill=\"none\" stroke=\"#0cc2f2\" stroke-width=\"10\" r=\"35\" stroke-dasharray=\"164.93361431346415 56.97787143782138\">\n          <animateTransform\n            attributeName=\"transform\"\n            type=\"rotate\"\n            dur=\"1s\"\n            repeatCount=\"indefinite\"\n            keyTimes=\"0;1\"\n            values=\"0 50 50;360 50 50\"/>\n        </circle>\n      </svg>\n    </div>\n    <script>\n      setTimeout(function () {\n        window.location.href = \"https://teca.pe\";\n      }, 4000);\n    </script>\n  </body>\n</html>\n",
+        "output": "str",
+        "x": 560,
+        "y": 720,
+        "wires": [
+            [
+                "node-red-flow-4"
+            ]
+        ]
+    },
+    {
+        "id": "69291ff0f154d108",
+        "type": "comment",
+        "z": "f9a2e3a88dbc14f0",
+        "name": "Form Activate",
+        "info": "",
+        "x": 330,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "42fde18b.e08e8",
+        "type": "inject",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"from\":\"\\\"ACTIVATE TECA  @NoReply\\\"<administracion@teca.pe>\",\"to\":\"marko.antonio.1.16.92@gmail.com\",\"subject\":\"Confirmacion de recepción de información\",\"text\":\"@NoReply\",\"html\":\"<p>✔ Estamos procediendo a activar la conectividad de su <b>dispositivo Sigfox</b>. Le llegara un correo de backend Sigfox, Sólo tiene que crear una contraseña</p> <br><br><br> <p>-Gracias-</p>\"}",
+        "payloadType": "json",
+        "x": 670,
+        "y": 880,
+        "wires": [
+            [
+                "492ab0f2.cea5c"
+            ]
+        ]
+    },
+    {
+        "id": "244793a3.03634c",
+        "type": "function",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "mail response",
+        "func": "let destination_mail= \"info@teca.pe\";\nlet sender_mail=  msg.payload.mail;\nlet name = msg.payload.name;\n\nvar html = \"<p>Procederemos a activar la conectividad de su dispositivo Sigfox en breve, con \";\nhtml =html+ \"ID: \" +\"\\\"<b>\"+ msg.payload.idDevice+\"\\\"</b>\" +\" PAC: \" +\"\\\"<b>\"+ msg.payload.pacDevice +\"</b>\\\"\"+\"</p>\";\nhtml =html+\"<p>Estimado(a) <b>\"+ msg.payload.name+\"</b>  Sus datos han sido recepcionados con éxito.\";\nhtml = html+ \" Porfavor espere a confirmar la activación, llegará en breve un correo de Sigfox. Si tarda demasiado contactar al número telefónico o correo de Teca. </p>\";\nhtml = html+ \"<br><p>- Teca | Soluciones IoT -</p>\"\n\n\n\nvar json = {\n    \"from\": destination_mail,\n    \"to\": sender_mail,\n    \"subject\": \"RECEPCIÓN DE SOLICITUD DE ACTIVACIÓN SIGFOX\",\n    \"text\": \"@NoReply\",\n    \"html\": html\n} \nmsg.payload = json;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 900,
+        "wires": [
+            [
+                "492ab0f2.cea5c"
+            ]
+        ]
+    },
+    {
+        "id": "31812733.9f9368",
+        "type": "delay",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 860,
+        "wires": [
+            [
+                "244793a3.03634c"
+            ]
+        ]
+    },
+    {
+        "id": "b79b091.0760df8",
+        "type": "inject",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"ID\":\"ID123\",\"PAC\":\"PAC123\",\"MAIL\":\"marko.antonio.1.16.92@gmail.com\",\"DIRECCION\":\"AV.Direccion\",\"NOMBRES\":\"TECA\",\"IDENTIFICACION\":\"20605632204\",\"CELULAR\":\"998481553\"}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 900,
+        "wires": [
+            [
+                "244793a3.03634c"
+            ]
+        ]
+    },
+    {
+        "id": "5a78059d.f7185c",
+        "type": "function",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "mail sender form",
+        "func": "let destination_mail= \"gerencia.tecaperu@gmail.com\" + \", info@teca.pe\";\nlet sender_mail=  msg.payload.mail;\nlet name = msg.payload.name;\n\n\nvar html = \"<p><b>NOMBRES:</b></b> \"+name+\"</p>\";\nhtml = html + \"<p><b>ID:</b></b> \"+msg.payload.idDevice+\"<p>\";\nhtml = html + \"<p><b>PAC:</b></b> \"+msg.payload.pacDevice+\"<p>\";\nhtml = html + \"<p><b>MAIL:</b></b> \"+sender_mail+\"<p>\";\nhtml = html + \"<p><b>PHONE:</b></b> \"+msg.payload.phone+\"<p>\";\nhtml = html + \"<p><b>Nro IDENTIFICACION:</b></b> \"+msg.payload[\"Dni/Ruc\"]+\"<p>\";\nhtml = html + \"<p><b>DIRECCION:</b></b>  \"+msg.payload.address+\"<p>\";\nhtml = html + \"<p><b>COMENTARIOS:</b></b> \"+msg.payload.additionalInstructions+\"<p>\";\n\n\n\nvar json = {\n    \"from\": sender_mail,\n    \"to\": destination_mail,\n    \"subject\": \"SOLICITUD DE ACTIVACION | SIGFOX @formulario: \\\"\"+ name,\n    \"text\": \"@NoReply\",\n    \"html\": html\n} \ndelete msg.req;\ndelete msg.res;\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 940,
+        "wires": [
+            [
+                "492ab0f2.cea5c"
+            ]
+        ]
+    },
+    {
+        "id": "492ab0f2.cea5c",
+        "type": "mailer",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "",
+        "transport": "{\n   \"host\": \"titicaca.yachay.pe\",\n   \"port\": 465,\n   \"secure\": true,\n   \"auth\": {\n       \"user\": \"info@teca.pe\",\n       \"pass\": \"Tec@peru@2022\"\n   }\n}",
+        "x": 670,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "644a4bba16385aaa",
+        "type": "inject",
+        "z": "f9a2e3a88dbc14f0",
+        "g": "9bec2cfa627d0fd5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"idDevice\":\"ABCR\",\"pacDevice\":\"12345\",\"name\":\"TECA PERU SAC\",\"mail\":\"contacto@teca.pe\",\"Dni/Ruc\":\"46818835\",\"address\":\"Av Alberto Alexander 2244 Lince\",\"additionalInstructions\":\"\"}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 940,
+        "wires": [
+            [
+                "5a78059d.f7185c"
+            ]
+        ]
+    },
+    {
+        "id": "98486ef0490856cb",
+        "type": "http in",
+        "z": "e4945ecb5318bc15",
+        "name": "activate",
+        "url": "simActivate",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "57ee52264e97e951"
+            ]
+        ]
+    },
+    {
+        "id": "f927ea1701202256",
+        "type": "http response",
+        "z": "e4945ecb5318bc15",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "57ee52264e97e951",
+        "type": "template",
+        "z": "e4945ecb5318bc15",
+        "name": "Form Activate",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<html>\n\n<head>\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"\n    integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\n</head>\n\n<body>\n  <div class=\"container\">\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\">\n    <style>\n      body {\n        background-color: #f5f5f5;\n        font-family: Arial, sans-serif;\n      }\n\n      h1 {\n        margin-top: 50px;\n        margin-bottom: 20px;\n        font-size: 36px;\n        font-weight: bold;\n        text-align: center;\n        text-transform: uppercase;\n      }\n\n      p {\n        margin-bottom: 20px;\n        font-size: 18px;\n        line-height: 1.5;\n      }\n\n      a {\n        color: #007bff;\n        text-decoration: none;\n      }\n\n      a:hover {\n        color: #0056b3;\n        text-decoration: underline;\n      }\n\n      form {\n        max-width: 600px;\n        margin: 0 auto;\n        background-color: #ffffff;\n        padding: 20px;\n        border-radius: 5px;\n        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);\n      }\n\n      label {\n        font-size: 18px;\n        font-weight: bold;\n        color: #555555;\n        margin-bottom: 5px;\n      }\n\n      input[type=\"text\"],\n      input[type=\"email\"],\n      textarea {\n        width: 100%;\n        padding: 10px;\n        font-size: 18px;\n        color: #555555;\n        border: 1px solid #cccccc;\n        border-radius: 4px;\n        box-sizing: border-box;\n        margin-bottom: 20px;\n      }\n\n      textarea {\n        height: 120px;\n        resize: vertical;\n      }\n\n      button[type=\"submit\"] {\n        background-color: #007bff;\n        color: #ffffff;\n        border: none;\n        border-radius: 4px;\n        padding: 10px 20px;\n        font-size: 18px;\n        cursor: pointer;\n      }\n\n      button[type=\"submit\"]:hover {\n        background-color: #0056b3;\n      }\n    </style>\n\n    <div class=\"espacio-superior\"></div>\n\n    <h1 class=\"text-center\">ACTIVAR SIMCARD M2M-IOT</h1>\n    <br/>\n    <form action=\"https://back.teca.pe/simSubmit-form\" method=\"post\">\n      <!--<p class=\"text-left\"><div class=\"espacio-superior\"></div> ¿Cómo extraer ID y PAC del devkit? <a href=\"https://github.com/TECA-IOT/Ufox/wiki/Gu%C3%ADa-de-inicio-r%C3%A1pido\">Click aquí</a></p>-->\n      <p class=\"text-left\">Más información <a href=\"\">Click aquí</a></p>\n\n      <div class=\"form-group\">\n        <label for=\"idDevice\">Número(s) ICC <p class=\"notaicc\" style=\"font-size: 12px;\">(Nota: Separar por coma si insertará varios ICC)</p></label>\n        <textarea class=\"form-control\" id=\"nicc\" name=\"nicc\"></textarea>\n        <!--<input type=\"text\" class=\"form-control\" id=\"idDevice\" name=\"idDevice\" required>-->\n      </div>\n      <div class=\"form-group\">\n        <label for=\"name\">Nombres y Apellidos | Razón Social (Empresa)</label>\n        <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" required>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"mail\">Email</label>\n        <input type=\"email\" class=\"form-control\" id=\"mail\" name=\"mail\" required>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"phone\">Telf. de contacto</label>\n        <input type=\"text\" class=\"form-control\" id=\"phone\" name=\"phone\" required>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"Dni/Ruc\">DNI | RUC | Tax id | NIF</label>\n        <input type=\"text\" class=\"form-control\" id=\"Dni/Ruc\" name=\"Dni/Ruc\" required>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"address\">Dirección,Ciudad y Pais</label>\n        <input type=\"text\" class=\"form-control\" id=\"address\" name=\"address\" required>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"additionalInstructions\">Instrucciones adicionales (Opcional)</label>\n        <textarea class=\"form-control\" id=\"additionalInstructions\" name=\"additionalInstructions\"></textarea>\n      </div>\n      <button type=\"submit\" class=\"btn btn-primary\">Enviar</button>\n    </form>\n  </div>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "f927ea1701202256"
+            ]
+        ]
+    },
+    {
+        "id": "44690dc5de693679",
+        "type": "http in",
+        "z": "e4945ecb5318bc15",
+        "name": "submit-form",
+        "url": "simSubmit-form",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "9a560412b1464f65",
+                "2ad042fe8455dac8",
+                "6b0e0d605fbfff3d",
+                "d5f52706a3f2407c"
+            ]
+        ]
+    },
+    {
+        "id": "9a560412b1464f65",
+        "type": "function",
+        "z": "e4945ecb5318bc15",
+        "name": "Procesamiento de datos",
+        "func": "var nombre = msg.payload.nombre;\nvar apellido = msg.payload.apellido;\nvar correo = msg.payload.correo;\nvar telefono = msg.payload.telefono;\nvar direccion = msg.payload.direccion;\n\nvar resultado = \"Recibido nombre: \" + nombre + \", apellido: \" + apellido + \", correo: \" + correo + \", telefono: \" + telefono + \", direccion: \" + direccion;\n\nmsg.payload = resultado;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "8f5f11adbf886ebc"
+            ]
+        ]
+    },
+    {
+        "id": "96a77abba74f3f07",
+        "type": "http response",
+        "z": "e4945ecb5318bc15",
+        "name": "HTTP Response",
+        "statusCode": "200",
+        "headers": {},
+        "x": 840,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "886e77fca86cee48",
+        "type": "comment",
+        "z": "e4945ecb5318bc15",
+        "name": "get webpage activate",
+        "info": "",
+        "x": 240,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "36133601922bb38f",
+        "type": "comment",
+        "z": "e4945ecb5318bc15",
+        "name": "post: recive form",
+        "info": "",
+        "x": 240,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2ad042fe8455dac8",
+        "type": "debug",
+        "z": "e4945ecb5318bc15",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8f5f11adbf886ebc",
+        "type": "template",
+        "z": "e4945ecb5318bc15",
+        "name": "Thanks Resp.",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">\n    <style>\n      .loading {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-12 text-center\">\n          <img src=\"data:image/png;base64,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\" alt=\"Teca Perú SAC\">\n          <h1>Gracias por su preferencia</h1>\n          <p>Procederemos a activar su SIMCRD M2M-IoT</p>\n        </div>\n      </div>\n    </div>\n    <div class=\"loading\">\n      <svg width=\"200\" height=\"200\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid\">\n        <circle cx=\"50\" cy=\"50\" fill=\"none\" stroke=\"#0cc2f2\" stroke-width=\"10\" r=\"35\" stroke-dasharray=\"164.93361431346415 56.97787143782138\">\n          <animateTransform\n            attributeName=\"transform\"\n            type=\"rotate\"\n            dur=\"1s\"\n            repeatCount=\"indefinite\"\n            keyTimes=\"0;1\"\n            values=\"0 50 50;360 50 50\"/>\n        </circle>\n      </svg>\n    </div>\n    <script>\n      setTimeout(function () {\n        window.location.href = \"https://teca.pe/activate\";\n      }, 4000);\n    </script>\n  </body>\n</html>\n",
+        "output": "str",
+        "x": 660,
+        "y": 300,
+        "wires": [
+            [
+                "96a77abba74f3f07"
+            ]
+        ]
+    },
+    {
+        "id": "ef9711ce21c67846",
+        "type": "comment",
+        "z": "e4945ecb5318bc15",
+        "name": "Form Activate",
+        "info": "",
+        "x": 430,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "85cfa526e3037579",
+        "type": "inject",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"from\":\"\\\"ACTIVATE TECA  @NoReply\\\"<administracion@teca.pe>\",\"to\":\"marko.antonio.1.16.92@gmail.com\",\"subject\":\"Confirmacion de recepción de información\",\"text\":\"@NoReply\",\"html\":\"<p>✔ Estamos procediendo a activar la conectividad de su <b>dispositivo Sigfox</b>. Le llegara un correo de backend Sigfox, Sólo tiene que crear una contraseña</p> <br><br><br> <p>-Gracias-</p>\"}",
+        "payloadType": "json",
+        "x": 770,
+        "y": 460,
+        "wires": [
+            [
+                "791c7a3dfeb27a2b"
+            ]
+        ]
+    },
+    {
+        "id": "19fbe8d681d4cb6c",
+        "type": "function",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "mail response",
+        "func": "let destination_mail= \"info@teca.pe\";\nlet sender_mail=  msg.payload.mail;\nlet name = msg.payload.name;\n\nvar html = \"<p>Procederemos a activar la conectividad de su(s) SIMCARD M2M-IoT, con \";\nhtml = html + \"Nro. ICC: \" + \"\\\"<b>\" + msg.payload.nicc+\"\\\"</b>\" +\"</p>\";\nhtml =html+\"<p>Estimado(a) <b>\"+ msg.payload.name+\"</b>  Sus datos han sido recepcionados con éxito.\";\nhtml = html+ \" Porfavor espere la confirmación de activación. Si tarda demasiado contactarse al número telefónico o correos de Teca. </p>\";\nhtml = html+ \"<br><p>- Teca | Soluciones IoT -</p>\"\n\n\n\nvar json = {\n    \"from\": destination_mail,\n    \"to\": sender_mail,\n    \"subject\": \"RECEPCIÓN DE SOLICITUD DE ACTIVACIÓN | SIMCARD M2M-IoT\",\n    \"text\": \"@NoReply\",\n    \"html\": html\n} \nmsg.payload = json;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 480,
+        "wires": [
+            [
+                "791c7a3dfeb27a2b"
+            ]
+        ]
+    },
+    {
+        "id": "d5f52706a3f2407c",
+        "type": "delay",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 440,
+        "wires": [
+            [
+                "19fbe8d681d4cb6c"
+            ]
+        ]
+    },
+    {
+        "id": "4d643bf70fdc348f",
+        "type": "inject",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"ID\":\"ID123\",\"PAC\":\"PAC123\",\"MAIL\":\"marko.antonio.1.16.92@gmail.com\",\"DIRECCION\":\"AV.Direccion\",\"NOMBRES\":\"TECA\",\"IDENTIFICACION\":\"20605632204\",\"CELULAR\":\"998481553\"}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "19fbe8d681d4cb6c"
+            ]
+        ]
+    },
+    {
+        "id": "6b0e0d605fbfff3d",
+        "type": "function",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "mail sender form",
+        "func": "let destination_mail= \"gerencia.tecaperu@gmail.com\" + \", info@teca.pe\";\nlet sender_mail=  msg.payload.mail;\nlet name = msg.payload.name;\n\n\nvar html = \"<p><b>NOMBRES:</b></b> \"+name+\"</p>\";\nhtml = html + \"<p><b>ICC:</b></b> \"+msg.payload.nicc+\"<p>\";\n//html = html + \"<p><b>PAC:</b></b> \"+msg.payload.pacDevice+\"<p>\";\nhtml = html + \"<p><b>MAIL:</b></b> \"+sender_mail+\"<p>\";\nhtml = html + \"<p><b>PHONE:</b></b> \"+msg.payload.phone+\"<p>\";\nhtml = html + \"<p><b>Nro IDENTIFICACION:</b></b> \"+msg.payload[\"Dni/Ruc\"]+\"<p>\";\nhtml = html + \"<p><b>DIRECCION:</b></b>  \"+msg.payload.address+\"<p>\";\nhtml = html + \"<p><b>Instrucciones Adicionales:</b></b> \"+msg.payload.additionalInstructions+\"<p>\";\n\n\n\nvar json = {\n    \"from\": sender_mail,\n    \"to\": destination_mail,\n    \"subject\": \"SOLICITUD DE ACTIVACION | SIMCARD M2M-IoT @formulario: \\\"\"+ name,\n    \"text\": \"@NoReply\",\n    \"html\": html\n} \ndelete msg.req;\ndelete msg.res;\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 520,
+        "wires": [
+            [
+                "791c7a3dfeb27a2b"
+            ]
+        ]
+    },
+    {
+        "id": "791c7a3dfeb27a2b",
+        "type": "mailer",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "",
+        "transport": "{\n   \"host\": \"titicaca.yachay.pe\",\n   \"port\": 465,\n   \"secure\": true,\n   \"auth\": {\n       \"user\": \"info@teca.pe\",\n       \"pass\": \"Tec@peru@2022\"\n   }\n}",
+        "x": 770,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "4da5bc5a9773e128",
+        "type": "inject",
+        "z": "e4945ecb5318bc15",
+        "g": "943570ad1cb599ec",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"idDevice\":\"ABCR\",\"pacDevice\":\"12345\",\"name\":\"TECA PERU SAC\",\"mail\":\"contacto@teca.pe\",\"Dni/Ruc\":\"46818835\",\"address\":\"Av Alberto Alexander 2244 Lince\",\"additionalInstructions\":\"\"}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 520,
+        "wires": [
+            [
+                "6b0e0d605fbfff3d"
+            ]
+        ]
+    },
+    {
+        "id": "31bff5c2aa755a82",
+        "type": "http in",
+        "z": "12cf43e506eee17e",
+        "name": "/contacto",
+        "url": "/contacto",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 200,
+        "wires": [
+            [
+                "fb6952ce6813563a"
+            ]
+        ]
+    },
+    {
+        "id": "3407e718b19cd315",
+        "type": "http response",
+        "z": "12cf43e506eee17e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "fb6952ce6813563a",
+        "type": "template",
+        "z": "12cf43e506eee17e",
+        "name": "Form Activate",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n\n<head>\n  <title>Formulario de Contacto</title>\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n  <div class=\"container\">\n    <h2>Formulario de Contacto</h2>\n    <form id=\"contact-form\" action=\"https://back.teca.pe/contacto\" method=\"post\">\n      <div class=\"mb-3\">\n        <label for=\"nombre\" class=\"form-label\">Su Nombre <span class=\"text-danger\">*</span></label>\n        <input type=\"text\" class=\"form-control\" id=\"nombre\" name=\"nombre\" placeholder=\"Ejemplo: Juan Pérez\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"telefono\" class=\"form-label\">Teléfono Celular <span class=\"text-danger\">*</span></label>\n        <input type=\"tel\" class=\"form-control\" id=\"telefono\" name=\"telefono\" placeholder=\"Ejemplo: 123-456-7890\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"email\" class=\"form-label\">Email <span class=\"text-danger\">*</span></label>\n        <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Ejemplo: correo@ejemplo.com\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"asunto\" class=\"form-label\">Asunto <span class=\"text-danger\">*</span></label>\n        <input type=\"text\" class=\"form-control\" id=\"asunto\" name=\"asunto\" placeholder=\"Ejemplo: Consulta\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"mensaje\" class=\"form-label\">Mensaje <span class=\"text-danger\">*</span></label>\n        <textarea class=\"form-control\" id=\"mensaje\" name=\"mensaje\" rows=\"4\" placeholder=\"Escriba su mensaje aquí\" required></textarea>\n      </div>\n      <button type=\"submit\" class=\"btn btn-primary\">Enviar</button>\n    </form>\n  </div>\n\n  <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js\"></script>\n  <script>\n    // Validación de campos obligatorios\n    $(\"#contact-form\").submit(function(event) {\n      if ($(\"#nombre\").val() === \"\" || $(\"#telefono\").val() === \"\" || $(\"#email\").val() === \"\" || $(\"#asunto\").val() === \"\" || $(\"#mensaje\").val() === \"\") {\n        alert(\"Por favor, complete todos los campos obligatorios.\");\n        event.preventDefault();\n      }\n    });\n  </script>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "3407e718b19cd315",
+                "d518decf5edfa040"
+            ]
+        ]
+    },
+    {
+        "id": "c12e43b1c6e71b11",
+        "type": "http in",
+        "z": "12cf43e506eee17e",
+        "name": "/form-contact",
+        "url": "/form-contact",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "d43ef5f6fd7d9ac0",
+                "1d7ae765ec5dcce7",
+                "a5c69581ad2eb5b2",
+                "5636bbec4b898ce6"
+            ]
+        ]
+    },
+    {
+        "id": "d43ef5f6fd7d9ac0",
+        "type": "function",
+        "z": "12cf43e506eee17e",
+        "name": "Procesamiento de datos",
+        "func": "var nombre = msg.payload.nombre;\nvar apellido = msg.payload.apellido;\nvar correo = msg.payload.correo;\nvar telefono = msg.payload.telefono;\nvar direccion = msg.payload.direccion;\n\nvar resultado = \"Recibido nombre: \" + nombre + \", apellido: \" + apellido + \", correo: \" + correo + \", telefono: \" + telefono + \", direccion: \" + direccion;\n\nmsg.payload = resultado;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 320,
+        "wires": [
+            [
+                "c01aaf3a2f2f358c"
+            ]
+        ]
+    },
+    {
+        "id": "fdd4c363699853e2",
+        "type": "http response",
+        "z": "12cf43e506eee17e",
+        "name": "HTTP Response",
+        "statusCode": "200",
+        "headers": {},
+        "x": 820,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "28e41893d96da9f0",
+        "type": "comment",
+        "z": "12cf43e506eee17e",
+        "name": "get webpage activate",
+        "info": "",
+        "x": 220,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "be2dbaf827867b64",
+        "type": "comment",
+        "z": "12cf43e506eee17e",
+        "name": "post: recive form",
+        "info": "",
+        "x": 220,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1d7ae765ec5dcce7",
+        "type": "debug",
+        "z": "12cf43e506eee17e",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c01aaf3a2f2f358c",
+        "type": "template",
+        "z": "12cf43e506eee17e",
+        "name": "Thanks Resp.",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">\n    <style>\n      .loading {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh;\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-12 text-center\">\n          <img src=\"data:image/png;base64,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\" alt=\"Teca Perú SAC\">\n          <h1>Gracias por su preferencia</h1>\n          <p>Procederemos a activar su SIMCRD M2M-IoT</p>\n        </div>\n      </div>\n    </div>\n    <div class=\"loading\">\n      <svg width=\"200\" height=\"200\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid\">\n        <circle cx=\"50\" cy=\"50\" fill=\"none\" stroke=\"#0cc2f2\" stroke-width=\"10\" r=\"35\" stroke-dasharray=\"164.93361431346415 56.97787143782138\">\n          <animateTransform\n            attributeName=\"transform\"\n            type=\"rotate\"\n            dur=\"1s\"\n            repeatCount=\"indefinite\"\n            keyTimes=\"0;1\"\n            values=\"0 50 50;360 50 50\"/>\n        </circle>\n      </svg>\n    </div>\n    <script>\n      setTimeout(function () {\n        window.location.href = \"https://teca.pe/activate\";\n      }, 4000);\n    </script>\n  </body>\n</html>\n",
+        "output": "str",
+        "x": 640,
+        "y": 320,
+        "wires": [
+            [
+                "fdd4c363699853e2"
+            ]
+        ]
+    },
+    {
+        "id": "9555c278f176dd68",
+        "type": "comment",
+        "z": "12cf43e506eee17e",
+        "name": "Form Activate",
+        "info": "",
+        "x": 410,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d002da57cec35665",
+        "type": "inject",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"from\":\"\\\"ACTIVATE TECA  @NoReply\\\"<administracion@teca.pe>\",\"to\":\"marko.antonio.1.16.92@gmail.com\",\"subject\":\"Confirmacion de recepción de información\",\"text\":\"@NoReply\",\"html\":\"<p>✔ Estamos procediendo a activar la conectividad de su <b>dispositivo Sigfox</b>. Le llegara un correo de backend Sigfox, Sólo tiene que crear una contraseña</p> <br><br><br> <p>-Gracias-</p>\"}",
+        "payloadType": "json",
+        "x": 750,
+        "y": 480,
+        "wires": [
+            [
+                "75f5bc1de7a03ecf"
+            ]
+        ]
+    },
+    {
+        "id": "77146850898a28a4",
+        "type": "function",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "mail response",
+        "func": "let destination_mail= \"info@teca.pe\";\nlet sender_mail=  msg.payload.mail;\nlet name = msg.payload.name;\n\nvar html = \"<p>Procederemos a activar la conectividad de su(s) SIMCARD M2M-IoT, con \";\nhtml = html + \"Nro. ICC: \" + \"\\\"<b>\" + msg.payload.nicc+\"\\\"</b>\" +\"</p>\";\nhtml =html+\"<p>Estimado(a) <b>\"+ msg.payload.name+\"</b>  Sus datos han sido recepcionados con éxito.\";\nhtml = html+ \" Porfavor espere la confirmación de activación. Si tarda demasiado contactarse al número telefónico o correos de Teca. </p>\";\nhtml = html+ \"<br><p>- Teca | Soluciones IoT -</p>\"\n\n\n\nvar json = {\n    \"from\": destination_mail,\n    \"to\": sender_mail,\n    \"subject\": \"RECEPCIÓN DE SOLICITUD DE ACTIVACIÓN | SIMCARD M2M-IoT\",\n    \"text\": \"@NoReply\",\n    \"html\": html\n} \nmsg.payload = json;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 500,
+        "wires": [
+            [
+                "75f5bc1de7a03ecf"
+            ]
+        ]
+    },
+    {
+        "id": "5636bbec4b898ce6",
+        "type": "delay",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 420,
+        "y": 460,
+        "wires": [
+            [
+                "77146850898a28a4"
+            ]
+        ]
+    },
+    {
+        "id": "37b197585b205673",
+        "type": "inject",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"ID\":\"ID123\",\"PAC\":\"PAC123\",\"MAIL\":\"marko.antonio.1.16.92@gmail.com\",\"DIRECCION\":\"AV.Direccion\",\"NOMBRES\":\"TECA\",\"IDENTIFICACION\":\"20605632204\",\"CELULAR\":\"998481553\"}",
+        "payloadType": "json",
+        "x": 230,
+        "y": 500,
+        "wires": [
+            [
+                "77146850898a28a4"
+            ]
+        ]
+    },
+    {
+        "id": "a5c69581ad2eb5b2",
+        "type": "function",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "mail sender form",
+        "func": "let destination_mail= \"gerencia.tecaperu@gmail.com\" + \", info@teca.pe\";\nlet sender_mail=  msg.payload.mail;\nlet name = msg.payload.name;\n\n\nvar html = \"<p><b>NOMBRES:</b></b> \"+name+\"</p>\";\nhtml = html + \"<p><b>ICC:</b></b> \"+msg.payload.nicc+\"<p>\";\n//html = html + \"<p><b>PAC:</b></b> \"+msg.payload.pacDevice+\"<p>\";\nhtml = html + \"<p><b>MAIL:</b></b> \"+sender_mail+\"<p>\";\nhtml = html + \"<p><b>PHONE:</b></b> \"+msg.payload.phone+\"<p>\";\nhtml = html + \"<p><b>Nro IDENTIFICACION:</b></b> \"+msg.payload[\"Dni/Ruc\"]+\"<p>\";\nhtml = html + \"<p><b>DIRECCION:</b></b>  \"+msg.payload.address+\"<p>\";\nhtml = html + \"<p><b>Instrucciones Adicionales:</b></b> \"+msg.payload.additionalInstructions+\"<p>\";\n\n\n\nvar json = {\n    \"from\": sender_mail,\n    \"to\": destination_mail,\n    \"subject\": \"SOLICITUD DE ACTIVACION | SIMCARD M2M-IoT @formulario: \\\"\"+ name,\n    \"text\": \"@NoReply\",\n    \"html\": html\n} \ndelete msg.req;\ndelete msg.res;\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 540,
+        "wires": [
+            [
+                "75f5bc1de7a03ecf"
+            ]
+        ]
+    },
+    {
+        "id": "75f5bc1de7a03ecf",
+        "type": "mailer",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "",
+        "transport": "{\n   \"host\": \"titicaca.yachay.pe\",\n   \"port\": 465,\n   \"secure\": true,\n   \"auth\": {\n       \"user\": \"info@teca.pe\",\n       \"pass\": \"Tec@peru@2022\"\n   }\n}",
+        "x": 750,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "cb49471c265e6cc0",
+        "type": "inject",
+        "z": "12cf43e506eee17e",
+        "g": "475c6d22f761ac90",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"idDevice\":\"ABCR\",\"pacDevice\":\"12345\",\"name\":\"TECA PERU SAC\",\"mail\":\"contacto@teca.pe\",\"Dni/Ruc\":\"46818835\",\"address\":\"Av Alberto Alexander 2244 Lince\",\"additionalInstructions\":\"\"}",
+        "payloadType": "json",
+        "x": 230,
+        "y": 540,
+        "wires": [
+            [
+                "a5c69581ad2eb5b2"
+            ]
+        ]
+    },
+    {
+        "id": "d518decf5edfa040",
+        "type": "debug",
+        "z": "12cf43e506eee17e",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 240,
+        "wires": []
+    }
+]
